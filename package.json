@@ -1,0 +1,53 @@
+{
+  "name": "thecat",
+  "version": "1.0.0",
+  "description": "Application de chat IA avec Gemini et IMAGEN (Node.js)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "jest",
+    "frontend:dev": "vite",
+    "frontend:build": "vite build",
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.21",
+    "express": "^5.1.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@tailwindcss/postcss": "^4.1.16",
+    "eslint": "^9.38.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  },
+  "keywords": [
+    "gemini",
+    "imagen",
+    "chatbot",
+    "nodejs",
+    "express"
+  ],
+  "author": "groovybronx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groovybronx/TheCat.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/groovybronx/TheCat/issues"
+  },
+  "homepage": "https://github.com/groovybronx/TheCat#readme"
+}
